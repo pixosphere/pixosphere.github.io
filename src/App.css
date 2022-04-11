@@ -1,0 +1,153 @@
+body {
+  font-family: "Rubik", sans-serif;
+  color: #777777;
+  padding-top: 72px;
+  background: url(./images/body-bg.png) no-repeat center;
+}
+
+p {
+  text-align: justify;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.separator{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.log-title {
+  display: block;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.date{
+  font-size: 0.5em;
+}
+
+.container {
+  width: 70%;
+  min-width: 380px;
+}
+
+.caption {
+  font-size: 0.8em;
+}
+
+.fixed-top {
+  position:fixed;
+  box-shadow: 0 3px 16px 0 rgba(0,0,0,0.1);
+  top:0;
+  left:0;
+  right:0;
+  width:100%;
+  z-index:99;
+  background:white;
+}
+
+.card {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.card:hover {
+  box-shadow: 0 3px 16px 0 #2bbffb;
+}
+
+.navbar {
+  display: block;
+}
+
+.btn-primary, .btn-primary:visited{
+  background-color: #2bbffb;
+  border-color: #2bbffb;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:checked{
+  background-color: #2bbffb;
+  border-color: #2bbffb;
+  box-shadow: 0 0 0 0 ;
+}
+.btn-primary:disabled, .btn-primary.disabled {
+  background-color: #2bbffb;
+  border-color: #2bbffb;
+}
+
+.btn-primary:focus{
+  box-shadow: 0 0 0 0 ;
+}
+
+.footer_area {
+  padding-top: 32px !important;
+  padding-bottom: 64px !important;
+  text-align: center;
+}
+
+.footer_area p {
+  font-size: 14px;
+  margin-top: 0.5em;
+  text-align: inherit;
+}
+.footer_logo {
+  padding: 2em 2em 1em;
+}
+
+
+.blank_link {
+  color: #2e9ffb;
+  text-decoration: none;
+}
+
+.image_link{
+  color: #212529;
+}
+.image_link:hover{
+  color: #2e9ffb;
+}
+
+.blank_link:hover {
+  color: inherit;
+}
+
+.grid-container {
+  columns: 5 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.grid-container div {
+  margin: 0 1.5rem 1.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border: solid 2px black;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+.grid-container div:hover img {
+  filter: grayscale(0);
+}
+.grid-container div:hover {
+  border-color: #23fb7c;
+}
+.grid-container div img {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+.grid-container div p {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+  font-style: italic;
+}
