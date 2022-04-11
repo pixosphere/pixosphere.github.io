@@ -28,6 +28,7 @@ yarn-error.log*
 
 # collectibles
 collectibles/
+covers/
 
 # custom
 *.sh
