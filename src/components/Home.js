@@ -26,7 +26,10 @@ function Home(){
 
 	React.useEffect(()=>{
 		axios.get(`${Configs.API_BASE}/collectibles.json`)
-			.then(response => setCollectibles(response.data))
+			.then(response => {
+				response.data.sort(()=>Math.random()-0.5)
+				setCollectibles(response.data)
+			})
 			.catch(error=>console.log(error))
 	},[])
 
